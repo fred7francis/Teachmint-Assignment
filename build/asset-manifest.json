@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Teachmint-Assignment/static/css/main.08842ab0.css",
+    "main.js": "/Teachmint-Assignment/static/js/main.faeaccdc.js",
+    "index.html": "/Teachmint-Assignment/index.html",
+    "main.08842ab0.css.map": "/Teachmint-Assignment/static/css/main.08842ab0.css.map",
+    "main.faeaccdc.js.map": "/Teachmint-Assignment/static/js/main.faeaccdc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08842ab0.css",
+    "static/js/main.faeaccdc.js"
+  ]
+}
