@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 20px;
+}
+p {
+  margin: 5px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.form-container {
+  padding: 10px;
+  width: 800px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+. label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select,
+button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+select {
+  width: 100px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.main-display {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+  border: 1px solid #ddd;
+  width: 25%;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.delayed {
+  background-color: #ff0000;
+  color: white;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+}
+
+.kanban-board {
+  display: flex;
+  justify-content: space-around;
+  min-height: 500px;
+}
+
+.kanban-stage {
+  text-align: center;
+  width: 150px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.pizza-card {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  height: 80px;
+}
